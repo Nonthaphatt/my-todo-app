@@ -26,4 +26,21 @@
 ```bash
 git clone https://github.com/your-username/todo-app.git
 cd todo-app
+```
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run the app
+```bash
 npm run dev
+```
+🧪 Usage
+- คลิก “Add Task” เพื่อเพิ่มงานใหม่
+- กรอกชื่องาน, รายละเอียด, วันที่กำหนดส่ง แล้วกด “Add Task”
+- กด icon ดินสอ ✏️ เพื่อแก้ไขงาน
+- กด icon ถังขยะ 🗑️ เพื่อแสดงหน้าต่างยืนยันการลบ
+- ติ๊ก checkbox เพื่อเปลี่ยนสถานะเป็นเสร็จสิ้น/ยังไม่เสร็จ
+- งานที่เสร็จสิ้นจะมีเส้นขีดกลางบนชื่อ

@@ -1,12 +1,29 @@
-# React + Vite
+# 📝 React To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+โปรเจกต์นี้คือระบบ To-Do List ที่พัฒนาด้วย React.js และ Bootstrap โดยสามารถเพิ่ม แก้ไข ลบ และจัดการสถานะของงาน (Task) ได้อย่างครบถ้วน พร้อมด้วยการจัดเรียงข้อมูลและการตรวจสอบข้อมูล (Validation) ผ่าน Modal Form
 
-Currently, two official plugins are available:
+## ✅ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- แสดงรายการ Task ทั้งหมด
+- แยกสถานะงานเป็น “ดำเนินการเสร็จสิ้น” และ “ยังไม่ดำเนินการ”
+- เพิ่ม Task ผ่าน Modal พร้อม Validate ข้อมูลที่จำเป็น
+- แก้ไข Task ได้โดยแสดงข้อมูลเดิมใน Modal
+- ลบ Task พร้อมยืนยันก่อนลบ
+- คลิก checkbox เพื่อเปลี่ยนสถานะงาน (มีเส้นขีดกลางเมื่อเสร็จสิ้น)
+- จัดเรียง Task ตามสถานะ และตาม Due Date
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Bootstrap** (via React-Bootstrap)
+- **React-Datepicker**
+- **Vite** (for dev server & build)
+
+## 📦 Installation
+
+1. Clone repository
+
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+npm run dev
